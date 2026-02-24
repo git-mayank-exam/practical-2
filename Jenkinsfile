@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Run ml-pipeline'){
             steps{
-                bat 'py -m pip instal -r requirements.txt'
+                bat 'py -m pip install -r requirements.txt'
                 bat 'py ml-pipeline.py'
             }
         }
