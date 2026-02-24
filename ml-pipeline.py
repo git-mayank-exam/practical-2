@@ -1,6 +1,6 @@
 import sys,numpy as np,pickle
 from sklearn.linear_model import LinearRegression
-x=np.array([[1],[2],[3]])
+x=np.array([[1],[7],[9]])
 y=np.array([2,4])
 
 model=LinearRegression()
