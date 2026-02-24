@@ -1,7 +1,7 @@
 import sys,numpy as np,pickle
 from sklearn.linear_model import LinearRegression
 x=np.array([[1],[2],[3]])
-y=np.array[2,4]
+y=np.array([2,4])
 
 model=LinearRegression()
 model.fit(x,y)
