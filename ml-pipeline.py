@@ -1,11 +1,11 @@
 import sys,numpy as np,pickle
 from sklearn.linear_model import LinearRegression
 x=np.array([[1],[7],[9]])
-y=np.array([2,4])
+y=np.array([0,1])
 
 model=LinearRegression()
 model.fit(x,y)
-pred=model.predict([[4],[5]])[7]
+pred=model.predict([[7],[1]])[3]
 
 with open('model','wb') as f:
     pickle.dump(model,f)
